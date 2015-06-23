@@ -1,0 +1,30 @@
+{
+  "name": "jsreport-html-to-text",
+  "version": "0.0.1",
+  "description": "",
+  "main": "jsreport.config.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "jsreport",
+    "ejs"
+  ],
+  "homepage": "https://github.com/jsreport/jsreport-html-to-text",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jsreport/jsreport-html-to-text.git"
+  },
+  "author": {
+    "name": "Jan Blaha",
+    "email": "jan.blaha@hotmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^7.0.1"
+  },
+  "dependencies": {
+    "html-to-text": "^1.3.1"
+  }
+}
