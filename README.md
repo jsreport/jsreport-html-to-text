@@ -1,3 +1,4 @@
-#EJS templating engine for jsreport
+#jsreport-html-to-text
 
-[![Build Status](https://travis-ci.org/jsreport/jsreport-ejs.png?branch=master)](https://travis-ci.org/jsreport/jsreport-ejs)
+> jsreport recipe transforming html to text using node package [html-to-text](https://github.com/werk85/node-html-to-text)
+
