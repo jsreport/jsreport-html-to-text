@@ -11,7 +11,7 @@ To use `recipe` in for template rendering set `template.recipe=html-to-text` in 
 
 ```js
 {
-  template: { content: '...', recipe: 'html-to-text', enginne: '...' }
+  template: { content: '...', recipe: 'html-to-text', engine: '...' }
 }
 ```
 
