@@ -23,17 +23,30 @@
     "prepublish": "in-publish && jsreport-studio-build || not-in-publish"
   },
   "license": "MIT",
+  "engines": {
+    "node": ">=8.9"
+  },
   "dependencies": {
-    "html-to-text": "3.0.0",
-    "node.extend": "1.1.6"
+    "html-to-text": "4.0.0",
+    "node.extend": "2.0.0"
   },
   "devDependencies": {
-    "babel-eslint": "7.1.1",
-    "eslint": "3.13.0",
-    "eslint-config-standard-jsx": "3.2.0",
-    "eslint-plugin-babel": "4.0.0",
-    "jsreport-studio-dev": "1.0.2",
-    "standard": "8.6.0"
+    "babel-eslint": "8.2.2",
+    "eslint": "4.19.1",
+    "eslint-config-standard-jsx": "5.0.0",
+    "eslint-plugin-babel": "4.1.2",
+    "jsreport-studio-dev": "1.1.2",
+    "standard": "11.0.1"
+  },
+  "standard": {
+    "ignore": [
+      "main.js"
+    ],
+    "parser": "babel-eslint",
+    "env": {
+      "node": true,
+      "mocha": true
+    }
   },
   "files": [
     "lib",
