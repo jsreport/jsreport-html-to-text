@@ -17,7 +17,7 @@
     "email": "jan.blaha@hotmail.com"
   },
   "scripts": {
-    "test": "standard",
+    "test": "mocha test&&standard",
     "build": "jsreport-studio-build",
     "start": "jsreport-studio-start --httpPort 5488",
     "prepublish": "in-publish && jsreport-studio-build || not-in-publish"
@@ -27,16 +27,19 @@
     "node": ">=8.9"
   },
   "dependencies": {
-    "html-to-text": "4.0.0",
+    "html-to-text": "6.0.0",
     "node.extend.without.arrays": "1.1.6"
   },
   "devDependencies": {
     "babel-eslint": "8.2.2",
-    "eslint": "4.19.1",
-    "eslint-config-standard-jsx": "5.0.0",
-    "eslint-plugin-babel": "4.1.2",
-    "jsreport-studio-dev": "1.5.0",
-    "standard": "11.0.1"
+    "eslint": "7.18.0",
+    "eslint-config-standard-jsx": "10.0.0",
+    "eslint-plugin-babel": "5.3.1",
+    "jsreport-core": "2.10.1",
+    "jsreport-studio-dev": "1.6.0",
+    "mocha": "8.2.1",
+    "should": "13.2.3",
+    "standard": "16.0.3"
   },
   "standard": {
     "ignore": [

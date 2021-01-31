@@ -1,9 +1,9 @@
 
 module.exports = {
-  'name': 'html-to-text',
-  'main': 'lib/main.js',
-  'dependencies': ['templates'],
-  'optionsSchema': {
+  name: 'html-to-text',
+  main: 'lib/main.js',
+  dependencies: ['templates'],
+  optionsSchema: {
     extensions: {
       'html-to-text': {
         type: 'object',
