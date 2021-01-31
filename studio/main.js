@@ -175,7 +175,8 @@ var Properties = function (_Component) {
             value: recipeProps.tables,
             onChange: function onChange(v) {
               return changeProps({ tables: v.target.value });
-            } })
+            }
+          })
         ),
         _react2.default.createElement(
           'div',
@@ -190,7 +191,8 @@ var Properties = function (_Component) {
             value: recipeProps.wordwrap,
             onChange: function onChange(v) {
               return changeProps({ wordwrap: parseInt(v.target.value) });
-            } })
+            }
+          })
         ),
         _react2.default.createElement(
           'div',
@@ -204,7 +206,8 @@ var Properties = function (_Component) {
             title: 'linkHrefBaseUrl', placeholder: '/', value: recipeProps.linkHrefBaseUrl,
             onChange: function onChange(v) {
               return changeProps({ linkHrefBaseUrl: v.target.value });
-            } })
+            }
+          })
         ),
         _react2.default.createElement(
           'div',
@@ -267,7 +270,8 @@ var Properties = function (_Component) {
             value: recipeProps.decodeOptions,
             onChange: function onChange(v) {
               return changeProps({ decodeOptions: v.target.value });
-            } })
+            }
+          })
         ),
         _react2.default.createElement(
           'div',
@@ -306,7 +310,8 @@ var Properties = function (_Component) {
             value: recipeProps.baseElement,
             onChange: function onChange(v) {
               return changeProps({ baseElement: v.target.value });
-            } })
+            }
+          })
         ),
         _react2.default.createElement(
           'div',
@@ -333,7 +338,8 @@ var Properties = function (_Component) {
             value: recipeProps.longWordSplitWrapCharacters,
             onChange: function onChange(v) {
               return changeProps({ longWordSplitWrapCharacters: v.target.value });
-            } })
+            }
+          })
         ),
         _react2.default.createElement(
           'div',
