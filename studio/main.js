@@ -184,6 +184,23 @@ var Properties = function (_Component) {
           _react2.default.createElement(
             'label',
             null,
+            'select all tables'
+          ),
+          _react2.default.createElement('input', {
+            title: 'Select all tables',
+            type: 'checkbox',
+            value: recipeProps.tablesSelectAll,
+            onChange: function onChange(v) {
+              return changeProps({ tablesSelectAll: v.target.value });
+            }
+          })
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'form-group' },
+          _react2.default.createElement(
+            'label',
+            null,
             'word wrap'
           ),
           _react2.default.createElement('input', {

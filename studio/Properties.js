@@ -15,6 +15,14 @@ export default class Properties extends Component {
             onChange={(v) => changeProps({ tables: v.target.value })}
           />
         </div>
+        <div className='form-group'><label>select all tables</label>
+          <input
+            title='Select all tables'
+            type='checkbox'
+            value={recipeProps.tablesSelectAll}
+            onChange={(v) => changeProps({ tablesSelectAll: v.target.value })}
+          />
+        </div>
         <div className='form-group'><label>word wrap</label>
           <input
             title='Wrap the line after x characters' type='number' placeholder='130' min='0' max='1000'
