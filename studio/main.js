@@ -191,7 +191,7 @@ var Properties = function (_Component) {
             type: 'checkbox',
             value: recipeProps.tablesSelectAll,
             onChange: function onChange(v) {
-              return changeProps({ tablesSelectAll: v.target.value });
+              return changeProps({ tablesSelectAll: v.target.checked });
             }
           })
         ),

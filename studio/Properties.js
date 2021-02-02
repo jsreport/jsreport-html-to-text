@@ -20,7 +20,7 @@ export default class Properties extends Component {
             title='Select all tables'
             type='checkbox'
             value={recipeProps.tablesSelectAll}
-            onChange={(v) => changeProps({ tablesSelectAll: v.target.value })}
+            onChange={(v) => changeProps({ tablesSelectAll: v.target.checked })}
           />
         </div>
         <div className='form-group'><label>word wrap</label>
