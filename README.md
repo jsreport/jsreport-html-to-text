@@ -1,3 +1,6 @@
+**⚠️ This repository has been moved to the monorepo [jsreport/jsreport](https://github.com/jsreport/jsreport)**
+--
+
 # jsreport-html-to-text
 
 jsreport recipe transforming html to text using node package [html-to-text](https://github.com/werk85/node-html-to-text). See the docs https://jsreport.net/learn/html-to-text 
